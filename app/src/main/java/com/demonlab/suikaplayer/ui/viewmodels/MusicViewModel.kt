@@ -89,7 +89,6 @@ class MusicViewModel(application: Application) : AndroidViewModel(application) {
                     ) else it
                 }
                 onSuccess()
-                syncSongsInternal()
             }
         }
     }
@@ -98,7 +97,7 @@ class MusicViewModel(application: Application) : AndroidViewModel(application) {
         viewModelScope.launch {
             val success = metadataManager.clearMetadataOverride(song.id)
             if (success) {
-                syncSongsInternal()
+                refreshLibrary()
                 onSuccess()
             }
         }
