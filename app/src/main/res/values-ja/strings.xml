@@ -1,0 +1,362 @@
+<resources>
+    <string name="app_name">SuikaPlayer</string>
+    <string name="settings">設定</string>
+    <string name="about">アプリについて</string>
+    <string name="version">バージョン</string>
+    <string name="license">ライセンス</string>
+    <string name="author">制作者</string>
+    <string name="hifi_audio">Hi-Fiオーディオ</string>
+    <string name="hifi_desc">Hi-Fi検出とバッジを有効にする</string>
+    <string name="keep_screen_on">画面をオンのまま維持</string>
+    <string name="keep_screen_on_desc">アプリ使用中に画面が消灯しないようにします</string>
+
+    <string name="general">一般</string>
+    <string name="cinematic_player">シネマティックプレイヤー</string>
+    <string name="cinematic_player_desc">動くカバーアートと滑らかなグラデーションによる没入感のあるインターフェースを有効にします。</string>
+    <string name="shortcut_playlists">プレイリスト</string>
+    <string name="backup">バックアップ</string>
+    <string name="security">セキュリティ</string>
+
+    <!-- UI/Player Strings -->
+    <string name="eq_title">イコライザー</string>
+    <string name="eq_empty_hint">イコライザーを設定するには曲を再生してください</string>
+    <string name="bass_label">エクストラベース</string>
+    <string name="spatial_audio_label">空間オーディオ</string>
+    <string name="loudness_label">音量感</string>
+    <string name="reverb_label">リバーブ</string>
+    <string name="balance_label">バランス</string>
+    <string name="balance_reset">バランスをリセット</string>
+    <string name="dynamics_label">ダイナミクス</string>
+    <string name="pitch_label">ピッチ</string>
+    <string name="pitch_reset">ピッチをリセット</string>
+    <string name="restore_defaults">デフォルトに戻す</string>
+    <string name="disabled">無効</string>
+    <string name="open_queue">キューを開く</string>
+    
+    <!-- EQ Bands -->
+    <string name="band_sub_bass">サブベース</string>
+    <string name="band_bass">ベース</string>
+    <string name="band_mid">ミッド</string>
+    <string name="band_presence">プレゼンス</string>
+    <string name="band_brilliance">ブリリアンス</string>
+
+    <!-- Metadata Editor -->
+    <string name="edit_title">タイトル</string>
+    <string name="edit_artist">アーティスト</string>
+    <string name="edit_album">アルバム</string>
+    <string name="edit_genre">ジャンル</string>
+    <string name="save_changes">変更を保存</string>
+
+    <!-- Library Tabs -->
+    <string name="tab_resume">ホーム</string>
+    <string name="tab_genres">ジャンル</string>
+    <string name="resume_recommendations">おすすめ</string>
+    <string name="resume_online_songs">オンライン楽曲</string>
+    <string name="resume_top_playlists">人気のプレイリスト</string>
+    <string name="resume_top_artists">人気のアーティスト</string>
+    <string name="resume_top_genres">人気のジャンル</string>
+    <string name="rescan_library">ライブラリを再スキャン</string>
+    <string name="rescan_library_desc">新しい音声ファイルをシステムメディアから強制的にスキャンします</string>
+    <string name="rescan_library_success">ライブラリを更新しました：%1$d曲見つかりました</string>
+    <string name="audio_settings">オーディオ</string>
+    <string name="audio_settings_desc">Hi-Fiバッジ、32ビット浮動小数点処理 &amp; AAudio出力</string>
+    <string name="hifi_badge">Hi-Fiバッジ</string>
+    <string name="hifi_badge_desc">高解像度ロスレス音声ファイルにHi-Fiバッジを表示</string>
+    <string name="audio_32bit_float">32ビット浮動小数点処理</string>
+    <string name="audio_32bit_float_desc">32ビット浮動小数点精度でオーディオを処理し、最大限のヘッドルームとクリッピングゼロを実現します</string>
+    <string name="audio_exclusive_mode">排他出力モード</string>
+    <string name="audio_exclusive_mode_desc">AAudioによる直接ハードウェアルーティングでAndroidシステムミキサーをバイパス</string>
+    <string name="resume_recently_added">最近追加した項目</string>
+    <string name="tab_all">すべて</string>
+    <string name="tab_favorites">お気に入り</string>
+    <string name="tab_folders">フォルダ</string>
+    <string name="tab_songs">曲</string>
+    <string name="tab_artists">アーティスト</string>
+    <string name="tab_albums_real">アルバム</string>
+    <string name="tab_albums">アーティスト</string>
+
+    <!-- Player Options -->
+    <string name="option_shuffle">シャッフル</string>
+    <string name="option_crossfade">クロスフェード</string>
+    <string name="option_automix">オートミックス</string>
+    <string name="option_timer">タイマー</string>
+    <string name="option_lyrics">歌詞</string>
+    <string name="transition_mixing">ミキシング</string>
+    <string name="transition_crossfade">クロスフェード</string>
+    <string name="crossfade_time">クロスフェード時間</string>
+    <string name="crossfade_time_desc">クロスフェード遷移の長さを設定します</string>
+    <string name="unknown_artist">不明なアーティスト</string>
+    <string name="unknown_song">不明な曲</string>
+    
+    <!-- Accessibility / Icons -->
+    <string name="cd_back">戻る</string>
+    <string name="cd_restore">復元</string>
+    
+    <!-- Other UI -->
+    <string name="filter_folders">フォルダを絞り込む</string>
+    <string name="option_favorite">お気に入り</string>
+
+    <string name="language">言語</string>
+    <string name="select_language">言語を選択</string>
+    <string name="lang_system">システムのデフォルト</string>
+    <string name="lang_english">英語</string>
+    <string name="lang_indonesian">インドネシア語</string>
+    <string name="lang_japanese">日本語</string>
+    <string name="lang_korean">韓国語</string>
+    <string name="lang_spanish">スペイン語</string>
+    <string name="lang_portuguese">ポルトガル語</string>
+    <string name="lang_french">フランス語</string>
+    <string name="lang_chinese">中国語</string>
+    <string name="lang_german">ドイツ語</string>
+    <string name="lang_russian">ロシア語</string>
+    <string name="lang_persian">ペルシャ語</string>
+
+    <string name="ok">OK</string>
+    <string name="cd_activate_eq">EQを有効化</string>
+    <string name="cd_play_pause">再生/一時停止</string>
+    <string name="cd_change_cover">カバーを変更</string>
+    <string name="playlists">プレイリスト</string>
+    <string name="add_to_playlist">プレイリスト</string>
+    <string name="create_playlist">プレイリストを作成</string>
+    <string name="playlist_name">プレイリスト名</string>
+    <string name="edit_playlist_name">プレイリスト名を編集</string>
+    <string name="cancel">キャンセル</string>
+    <string name="create">作成</string>
+    <string name="save">保存</string>
+    <string name="no_songs_in_playlist">このプレイリストには曲がありません</string>
+    <string name="theme_auto">自動（システム）</string>
+    <string name="theme_light">ライトモード</string>
+    <string name="theme_dark">ダークモード</string>
+    <string name="add_songs">曲を追加</string>
+    <string name="search_songs">曲を検索…</string>
+    <string name="save_selection">保存</string>
+    <string name="delete_song">端末から削除</string>
+    <string name="delete_song_warning">本当によろしいですか？この曲は端末から完全に削除されます。</string>
+    <string name="restore_music">復元</string>
+    <string name="song_deleted">曲を削除しました</string>
+    <string name="edit_name">名前を編集</string>
+    <string name="search">検索</string>
+    <string name="search_filter">結果を絞り込む</string>
+    <string name="search_filter_all">すべて</string>
+    <string name="search_filter_playlist">プレイリスト</string>
+    <string name="search_filter_album">アルバム</string>
+    <string name="search_filter_artist">アーティスト</string>
+    <string name="search_filter_folder">フォルダ</string>
+    <string name="search_filter_cancel">キャンセル</string>
+    <string name="search_hint">曲、アーティスト、アルバムを検索...</string>
+    <string name="delete_playlist">プレイリストを削除</string>
+    <string name="delete_playlist_confirm">このプレイリストを削除してもよろしいですか？</string>
+    <string name="delete">削除</string>
+    <string name="custom_title">カスタムタイトル</string>
+    <string name="section_customization">セクションをカスタマイズ</string>
+    <string name="sections_title">セクション</string>
+    <string name="section_customization_desc">表示するセクションタブを選択します</string>
+    <string name="section_customization_albums">アーティスト / アルバム</string>
+    <string name="customization">カスタマイズ</string>
+    <string name="customization_desc">アプリのスタイル、タイトル、色を個人設定します</string>
+    <string name="use_custom_colors">カスタムカラーを使用</string>
+    <string name="use_custom_colors_desc">ダイナミックカラーを事前設定した色で上書きします</string>
+    <string name="amoled_pitch_black">AMOLED漆黒</string>
+    <string name="amoled_pitch_black_desc">ダークモードで漆黒の背景を使用します</string>
+    <string name="media_player">メディアプレイヤー</string>
+    <string name="haptic_vibration">触覚振動</string>
+    <string name="haptic_vibration_desc">プレイヤー操作時に微細な振動を発生させます</string>
+    <string name="song_info">曲情報</string>
+    <string name="song_info_desc">プレイヤーと曲リストにオーディオ形式とビットレートを表示します</string>
+    <string name="show_in_song_list">曲リストに表示</string>
+    <string name="show_in_full_player">フルプレイヤーに表示</string>
+    <string name="show_options">オプションを表示</string>
+    <string name="hide_options">オプションを非表示</string>
+    <string name="cover_player">カバープレイヤー</string>
+    <string name="cover_player_desc">カバーの形状、サイズ、回転をカスタマイズします</string>
+    <string name="shape_default">デフォルト</string>
+    <string name="shape_square">四角形</string>
+    <string name="shape_circular">円形</string>
+    <string name="cover_size">カバーサイズ</string>
+    <string name="cover_spin">再生中に回転する</string>
+    <string name="cover_vinyl">レコード盤エフェクト</string>
+    <string name="cover_preview">プレイヤーのプレビュー</string>
+    <string name="cover_shape_title">カバーの形状</string>
+    <string name="size_small">小（70%）</string>
+    <string name="size_medium">中（85%）</string>
+    <string name="size_large">大（100%）</string>
+    <string name="circular_effects">円形エフェクト</string>
+    <string name="cover_spin_desc">再生中はカバーを継続的に回転させます</string>
+    <string name="cover_vinyl_desc">レコード盤のテクスチャリングを追加します</string>
+    <string name="controls_player">コントロールプレイヤー</string>
+    <string name="controls_player_desc">戻る・次へボタンをカスタマイズします</string>
+    <string name="controls_preview">コントロールのプレビュー</string>
+    <string name="controls_style_title">ボタンスタイル</string>
+    <string name="controls_filled">塗りつぶしアイコン</string>
+    <string name="controls_filled_desc">単色の塗りつぶしアイコンを使用します</string>
+    <string name="controls_custom_color">コントロールのカスタムカラー</string>
+    <string name="controls_custom_color_desc">Material Youのダイナミックカラーまたはカスタムパレットの色を使用します</string>
+    <string name="color_palette">カラーパレット</string>
+    <string name="restore_default_title">デフォルトに戻す</string>
+    <string name="categories">カテゴリー</string>
+    <string name="edit_information">情報を編集</string>
+    <string name="info_updated">情報を更新しました</string>
+    <string name="info_restored">情報を復元しました</string>
+    <string name="player_queue">キュー</string>
+    <string name="play_next">次に再生</string>
+    <string name="player_options">オプション</string>
+    <string name="option_share">共有</string>
+    <string name="option_repeat_one">1曲をリピート</string>
+    <string name="option_repeat_all">すべてをリピート</string>
+    <string name="option_repeat_off">オフ</string>
+    <string name="output_speaker">スピーカー</string>
+    <string name="output_headphones">ヘッドホン</string>
+    <string name="no_song_playing">再生中の曲はありません</string>
+    <string name="output_bluetooth">Bluetooth</string>
+    <string name="queue_now_playing">再生中</string>
+    <string name="queue_up_next">次の曲</string>
+    <string name="option_visualizer">ビジュアライザー</string>
+    <string name="visualizer_full_player">フルプレイヤーに表示</string>
+    <string name="visualizer_mini_player">ミニプレイヤーに表示</string>
+    <string name="credits">クレジット</string>
+    <string name="credits_desc">テスト、デザイン提案、ロゴ</string>
+    <string name="creator_desc">SuikaPlayer音楽プレイヤーの制作者兼メンテナー</string>
+    <string name="gesture">ジェスチャー</string>
+    <string name="gesture_desc">アプリのジェスチャーをカスタマイズします</string>
+    <string name="enable_gestures">ジェスチャーを有効にする</string>
+    <string name="enable_gestures_desc">プレイヤーでのジェスチャー操作を有効にします</string>
+    <string name="change_gesture">ジェスチャーを変更</string>
+    <string name="change_gesture_desc">上スワイプのジェスチャーを変更します</string>
+    <string name="blur">ぼかし</string>
+    <string name="blur_desc">背景のぼかし効果を設定します</string>
+    <string name="enable_blur">ぼかしを有効にする</string>
+    <string name="enable_blur_desc">アルバムアートをぼかした背景として表示します</string>
+    <string name="blur_dark_mode">ダークモード</string>
+    <string name="blur_dark_mode_desc">ダークモードでぼかし効果を表示します</string>
+    <string name="blur_light_mode">ライトモード</string>
+    <string name="blur_light_mode_desc">ライトモードでぼかし効果を表示します</string>
+    <string name="blur_cinematic_mode">シネマティックモード</string>
+    <string name="blur_cinematic_mode_desc">シネマティックモードでぼかし効果を表示します</string>
+    <string name="blur_controls">コントロール</string>
+    <string name="blur_controls_desc">ぼかし背景に合わせて色を調和させます</string>
+    <string name="other">その他</string>
+
+    <!-- Users -->
+    <string name="demon">MrAlyangPratasa</string>
+    <string name="desukia">Desukia</string>
+
+    <!-- Open Source Libraries -->
+    <string name="open_source_libraries">オープンソースライブラリ</string>
+    <string name="coil_desc">Kotlin Coroutinesを基盤としたAndroid向け画像読み込みライブラリ。\nライセンス: Apache License 2.0</string>
+
+    <string name="gson_desc">JavaオブジェクトをJSONに変換し、その逆も可能にするJavaシリアライズ/デシリアライズライブラリ。\nライセンス: Apache License 2.0</string>
+    <string name="room_desc">RoomはSQLiteの上に抽象化レイヤーを提供する永続化ライブラリです。\nライセンス: Apache License 2.0</string>
+    <string name="compose_desc">ネイティブUIを構築するためのAndroidの最新ツールキット。\nライセンス: Apache License 2.0</string>
+    <string name="jaudiotagger_desc">ID3、Vorbis、FLACなどのタグ形式を編集・読み取りするためのオーディオタグ付けライブラリ。\nライセンス: LGPL v2.1</string>
+    <string name="quicksand_desc">QuicksandはAndrew Paglinawanによってデザインされたサンセリフ書体です。\nライセンス: SIL Open Font License 1.1</string>
+
+    <string name="permissions">権限</string>
+    <string name="permissions_desc">使用されている権限についての情報</string>
+    <string name="perm_storage_title">ストレージアクセス</string>
+    <string name="perm_storage_desc">端末内の音楽ファイルをスキャンし、フォルダを管理するために必要です。</string>
+    <string name="perm_notifications_title">通知</string>
+    <string name="perm_notifications_desc">通知バーに再生コントロールと情報を表示するために必要です。</string>
+
+    <string name="perm_bluetooth_title">Bluetooth</string>
+    <string name="perm_bluetooth_desc">Bluetoothオーディオ機器との接続を検出・管理するために必要です。</string>
+    <string name="perm_record_audio_title">音声録音</string>
+    <string name="perm_record_audio_desc">オーディオビジュアライザーがリアルタイムの周波数データを処理・表示するために必要です。</string>
+
+    <!-- Playlist Export/Import -->
+    <string name="sort_options_title">曲を並べ替え</string>
+    <string name="sort_ascending">昇順</string>
+    <string name="sort_descending">降順</string>
+    <string name="sort_track_number">トラック番号</string>
+    <string name="sort_alphabetical">アルファベット順</string>
+    <string name="sort_artist">アーティスト</string>
+    <string name="sort_duration">再生時間</string>
+    <string name="sort_date_added">追加日</string>
+    <string name="backup_warning_title">重要なお知らせ</string>
+    <string name="backup_warning_desc">SuikaPlayerは、本アプリでエクスポートされたプレイリストのみをインポートできます。正しく再生するために、対応する音楽ファイルが端末に保存されていることを確認してください。</string>
+    <string name="export_playlists">プレイリストをエクスポート</string>
+    <string name="export_playlists_desc">プレイリストをファイルに保存します</string>
+    <string name="import_playlists">プレイリストをインポート</string>
+    <string name="import_playlists_desc">ファイルからプレイリストを復元します</string>
+    <string name="export_success">プレイリストをエクスポートしました</string>
+    <string name="export_error">プレイリストのエクスポートに失敗しました</string>
+    <string name="import_success">プレイリストをインポートしました</string>
+    <string name="import_error">プレイリストのインポートに失敗しました</string>
+    <string name="song_singular">曲</string>
+    <string name="song_plural">曲</string>
+    <string name="no_music_available">利用できる音楽がありません</string>
+    <string name="permission_required">権限が必要です</string>
+
+    <!-- Welcome Card -->
+    <string name="welcome_morning">おはようございます</string>
+    <string name="welcome_noon">こんにちは</string>
+    <string name="welcome_afternoon">こんにちは</string>
+    <string name="welcome_evening">こんばんは</string>
+    <string name="welcome_night">おやすみなさい</string>
+    <string name="welcome_early_morning">お早うございます</string>
+    <string name="stats_hours_unit">%d時間</string>
+    <string name="stats_minutes_unit">%d分</string>
+    <string name="stats_seconds_unit">%d秒</string>
+    <string name="stats_music_unit">の音楽</string>
+
+    <!-- Info Cards -->
+    <string name="info_card_time">おめでとうございます！今日は%sの音楽を聴きました</string>
+    <string name="info_card_songs">音楽がお好きなんですね！合計%d曲持っています。その調子です！</string>
+    <string name="info_card_favorites_has">お気に入りの曲が%d曲あります。引き続きお楽しみください！</string>
+    <string name="info_card_favorites_none">まだお気に入りの曲がありません。追加してみましょう！</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_description">あなたの端末のための、最も高機能な音楽プレイヤー。</string>
+    <string name="onboarding_start_button">開始</string>
+    <string name="onboarding_perm_audio_title">音声録音</string>
+    <string name="onboarding_perm_required">権限が必要です</string>
+    <string name="onboarding_perm_audio_desc">音楽を聴いている間、オーディオビジュアライザーがリアルタイムの周波数データを処理・表示するために必要です。</string>
+    <string name="onboarding_grant_button">権限を付与</string>
+    <string name="onboarding_next_button">次へ</string>
+    <string name="onboarding_perm_bluetooth_title">Bluetooth</string>
+    <string name="onboarding_perm_bluetooth_desc">より良い視聴体験のため、Bluetoothオーディオ機器との接続を検出・管理するために必要です。</string>
+    <string name="onboarding_perm_notifications_title">通知</string>
+    <string name="onboarding_perm_notifications_desc">ステータスバーとロック画面に音楽プレイヤーのコントロールを表示し、いつでも再生を操作できるようにするために必要です。</string>
+    <string name="onboarding_perm_music_title">音楽 &amp; オーディオ</string>
+    <string name="onboarding_perm_music_desc">端末内の音楽コレクションをスキャン、インデックス化、再生するために不可欠です。</string>
+    <string name="onboarding_perm_manage_files_title">音楽フォルダへのアクセス</string>
+    <string name="onboarding_perm_manage_files_desc">SuikaPlayerが安全にライブラリを整理・管理できるよう、音楽フォルダを選択してください。</string>
+    <string name="onboarding_welcome_back">SuikaPlayerへようこそ</string>
+    <string name="onboarding_listen_style">スタイリッシュに聴こう</string>
+    <string name="onboarding_feature_hifi">HiFiオーディオ対応</string>
+
+    <string name="onboarding_feature_title">カスタマイズ可能なタイトル</string>
+    <string name="onboarding_feature_lyrics">ダイナミック歌詞</string>
+    <string name="onboarding_feature_mix">クロスフェード &amp; オートミックス</string>
+    <string name="onboarding_feature_more">その他にもたくさん…</string>
+    <string name="onboarding_finish_button">完了</string>
+    <string name="onboarding_skip_button">今はスキップ</string>
+    <string name="onboarding_reminder_title">あなたがコントロールできます</string>
+    <string name="onboarding_reminder_desc">権限をスキップした場合でも、後から設定 > セキュリティ > 権限で簡単に有効にできます。</string>
+    <string name="onboarding_reminder_button">わかりました</string>
+    <string name="onboarding_folder_visibility_title">フォルダの表示設定</string>
+    <string name="onboarding_folder_visibility_desc">デフォルトでは、SuikaPlayerは選択した音楽フォルダの曲のみを表示します。このオプションを有効にすると、最初から端末内のすべての音楽フォルダを表示します。</string>
+    <string name="onboarding_folder_visibility_label">すべてのフォルダを表示</string>
+    <string name="onboarding_support_title">プロジェクトを応援する</string>
+    <string name="onboarding_support_desc">SuikaPlayerを気に入っていただけたら、設定 > アプリについて内の寄付セクションからご支援をご検討ください。あらゆるご支援がアプリの成長を支えます！</string>
+    <string name="search_play_all">再生</string>
+    <string name="search_shuffle">シャッフル</string>
+    <string name="playing_from">再生元: %s</string>
+    <string name="playing_from_search">検索結果</string>
+    <string name="option_speed">速度</string>
+    <string name="preset_name">プリセット名</string>
+    <string name="cd_save_preset">プリセットを保存</string>
+    <string name="cd_delete_preset">プリセットを削除</string>
+
+    <!-- Donate -->
+    <string name="donate_title">プロジェクトを応援する</string>
+    <string name="paypal">PayPal</string>
+    <string name="monero">Monero</string>
+    <string name="monero_address">88s5Re4p6a3P9TtqaG1G2Yeq5Ppp1w1npXebyLjktuxYgurFAGn4GRbKuPKGbx1pD1bBwohtAriL7JqB12ECp4SnMN1T3q9</string>
+    <string name="copied">クリップボードにコピーしました</string>
+    <string name="internal_storage">内部ストレージ</string>
+    <string name="sd_card">SDカード</string>
+    <string name="folder_browser_title">フォルダブラウザ</string>
+    <string name="no_songs_folder">このフォルダには曲が見つかりません</string>
+    <string name="show_hero_section">挨拶カードを表示</string>
+    <string name="show_hero_section_desc">ホーム画面に挨拶と統計情報のカードを表示します</string>
+</resources>

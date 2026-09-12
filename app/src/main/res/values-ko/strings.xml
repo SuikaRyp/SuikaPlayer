@@ -1,0 +1,362 @@
+<resources>
+    <string name="app_name">SuikaPlayer</string>
+    <string name="settings">설정</string>
+    <string name="about">정보</string>
+    <string name="version">버전</string>
+    <string name="license">라이선스</string>
+    <string name="author">제작자</string>
+    <string name="hifi_audio">Hi-Fi 오디오</string>
+    <string name="hifi_desc">Hi-Fi 감지 및 배지 활성화</string>
+    <string name="keep_screen_on">화면 항상 켜짐</string>
+    <string name="keep_screen_on_desc">앱 사용 중 화면이 꺼지지 않도록 합니다</string>
+
+    <string name="general">일반</string>
+    <string name="cinematic_player">시네마틱 플레이어</string>
+    <string name="cinematic_player_desc">움직이는 커버 아트와 부드러운 그라데이션으로 몰입감 있는 인터페이스를 활성화합니다.</string>
+    <string name="shortcut_playlists">재생목록</string>
+    <string name="backup">백업</string>
+    <string name="security">보안</string>
+
+    <!-- UI/Player Strings -->
+    <string name="eq_title">이퀄라이저</string>
+    <string name="eq_empty_hint">이퀄라이저를 설정하려면 곡을 재생하세요</string>
+    <string name="bass_label">엑스트라 베이스</string>
+    <string name="spatial_audio_label">공간 음향</string>
+    <string name="loudness_label">음량감</string>
+    <string name="reverb_label">리버브</string>
+    <string name="balance_label">밸런스</string>
+    <string name="balance_reset">밸런스 재설정</string>
+    <string name="dynamics_label">다이나믹스</string>
+    <string name="pitch_label">피치</string>
+    <string name="pitch_reset">피치 재설정</string>
+    <string name="restore_defaults">기본값으로 복원</string>
+    <string name="disabled">사용 안 함</string>
+    <string name="open_queue">대기열 열기</string>
+    
+    <!-- EQ Bands -->
+    <string name="band_sub_bass">서브 베이스</string>
+    <string name="band_bass">베이스</string>
+    <string name="band_mid">미드</string>
+    <string name="band_presence">프레즌스</string>
+    <string name="band_brilliance">브릴리언스</string>
+
+    <!-- Metadata Editor -->
+    <string name="edit_title">제목</string>
+    <string name="edit_artist">아티스트</string>
+    <string name="edit_album">앨범</string>
+    <string name="edit_genre">장르</string>
+    <string name="save_changes">변경사항 저장</string>
+
+    <!-- Library Tabs -->
+    <string name="tab_resume">홈</string>
+    <string name="tab_genres">장르</string>
+    <string name="resume_recommendations">추천</string>
+    <string name="resume_online_songs">온라인 음악</string>
+    <string name="resume_top_playlists">인기 재생목록</string>
+    <string name="resume_top_artists">인기 아티스트</string>
+    <string name="resume_top_genres">인기 장르</string>
+    <string name="rescan_library">라이브러리 다시 스캔</string>
+    <string name="rescan_library_desc">새 오디오 파일을 위해 시스템 미디어를 강제로 스캔합니다</string>
+    <string name="rescan_library_success">라이브러리가 새로고침되었습니다: %1$d곡 발견</string>
+    <string name="audio_settings">오디오</string>
+    <string name="audio_settings_desc">Hi-Fi 배지, 32비트 부동소수점 처리 &amp; AAudio 출력</string>
+    <string name="hifi_badge">Hi-Fi 배지</string>
+    <string name="hifi_badge_desc">고해상도 무손실 오디오 파일에 Hi-Fi 배지를 표시합니다</string>
+    <string name="audio_32bit_float">32비트 부동소수점 처리</string>
+    <string name="audio_32bit_float_desc">최대 헤드룸과 클리핑 없는 재생을 위해 32비트 부동소수점 정밀도로 오디오를 처리합니다</string>
+    <string name="audio_exclusive_mode">독점 출력 모드</string>
+    <string name="audio_exclusive_mode_desc">AAudio 직접 하드웨어 라우팅을 통해 Android 시스템 믹서를 우회합니다</string>
+    <string name="resume_recently_added">최근 추가된 항목</string>
+    <string name="tab_all">전체</string>
+    <string name="tab_favorites">즐겨찾기</string>
+    <string name="tab_folders">폴더</string>
+    <string name="tab_songs">곡</string>
+    <string name="tab_artists">아티스트</string>
+    <string name="tab_albums_real">앨범</string>
+    <string name="tab_albums">아티스트</string>
+
+    <!-- Player Options -->
+    <string name="option_shuffle">셔플</string>
+    <string name="option_crossfade">크로스페이드</string>
+    <string name="option_automix">오토믹스</string>
+    <string name="option_timer">타이머</string>
+    <string name="option_lyrics">가사</string>
+    <string name="transition_mixing">믹싱</string>
+    <string name="transition_crossfade">크로스페이드</string>
+    <string name="crossfade_time">크로스페이드 시간</string>
+    <string name="crossfade_time_desc">크로스페이드 전환 시간을 설정합니다</string>
+    <string name="unknown_artist">알 수 없는 아티스트</string>
+    <string name="unknown_song">알 수 없는 곡</string>
+    
+    <!-- Accessibility / Icons -->
+    <string name="cd_back">뒤로</string>
+    <string name="cd_restore">복원</string>
+    
+    <!-- Other UI -->
+    <string name="filter_folders">폴더 필터</string>
+    <string name="option_favorite">즐겨찾기</string>
+
+    <string name="language">언어</string>
+    <string name="select_language">언어 선택</string>
+    <string name="lang_system">시스템 기본값</string>
+    <string name="lang_english">영어</string>
+    <string name="lang_indonesian">인도네시아어</string>
+    <string name="lang_japanese">일본어</string>
+    <string name="lang_korean">한국어</string>
+    <string name="lang_spanish">스페인어</string>
+    <string name="lang_portuguese">포르투갈어</string>
+    <string name="lang_french">프랑스어</string>
+    <string name="lang_chinese">중국어</string>
+    <string name="lang_german">독일어</string>
+    <string name="lang_russian">러시아어</string>
+    <string name="lang_persian">페르시아어</string>
+
+    <string name="ok">확인</string>
+    <string name="cd_activate_eq">EQ 활성화</string>
+    <string name="cd_play_pause">재생/일시정지</string>
+    <string name="cd_change_cover">커버 변경</string>
+    <string name="playlists">재생목록</string>
+    <string name="add_to_playlist">재생목록</string>
+    <string name="create_playlist">재생목록 만들기</string>
+    <string name="playlist_name">재생목록 이름</string>
+    <string name="edit_playlist_name">재생목록 이름 편집</string>
+    <string name="cancel">취소</string>
+    <string name="create">만들기</string>
+    <string name="save">저장</string>
+    <string name="no_songs_in_playlist">이 재생목록에 곡이 없습니다</string>
+    <string name="theme_auto">자동 (시스템)</string>
+    <string name="theme_light">라이트 모드</string>
+    <string name="theme_dark">다크 모드</string>
+    <string name="add_songs">곡 추가</string>
+    <string name="search_songs">곡 검색…</string>
+    <string name="save_selection">저장</string>
+    <string name="delete_song">기기에서 삭제</string>
+    <string name="delete_song_warning">정말 삭제하시겠습니까? 이 곡은 기기에서 영구적으로 삭제됩니다.</string>
+    <string name="restore_music">복원</string>
+    <string name="song_deleted">곡이 삭제되었습니다</string>
+    <string name="edit_name">이름 편집</string>
+    <string name="search">검색</string>
+    <string name="search_filter">결과 필터</string>
+    <string name="search_filter_all">전체</string>
+    <string name="search_filter_playlist">재생목록</string>
+    <string name="search_filter_album">앨범</string>
+    <string name="search_filter_artist">아티스트</string>
+    <string name="search_filter_folder">폴더</string>
+    <string name="search_filter_cancel">취소</string>
+    <string name="search_hint">곡, 아티스트, 앨범 검색...</string>
+    <string name="delete_playlist">재생목록 삭제</string>
+    <string name="delete_playlist_confirm">이 재생목록을 삭제하시겠습니까?</string>
+    <string name="delete">삭제</string>
+    <string name="custom_title">사용자 지정 제목</string>
+    <string name="section_customization">섹션 사용자 지정</string>
+    <string name="sections_title">섹션</string>
+    <string name="section_customization_desc">표시할 섹션 탭을 선택하세요</string>
+    <string name="section_customization_albums">아티스트 / 앨범</string>
+    <string name="customization">사용자 지정</string>
+    <string name="customization_desc">앱 스타일, 제목, 색상을 개인화합니다</string>
+    <string name="use_custom_colors">사용자 지정 색상 사용</string>
+    <string name="use_custom_colors_desc">동적 색상을 사전 설정된 색상으로 대체합니다</string>
+    <string name="amoled_pitch_black">AMOLED 완전 검정</string>
+    <string name="amoled_pitch_black_desc">다크 모드에서 완전한 검정 배경을 사용합니다</string>
+    <string name="media_player">미디어 플레이어</string>
+    <string name="haptic_vibration">햅틱 진동</string>
+    <string name="haptic_vibration_desc">플레이어 컨트롤 사용 시 미세한 진동을 제공합니다</string>
+    <string name="song_info">곡 정보</string>
+    <string name="song_info_desc">플레이어와 곡 목록에 오디오 형식과 비트레이트를 표시합니다</string>
+    <string name="show_in_song_list">곡 목록에 표시</string>
+    <string name="show_in_full_player">전체 플레이어에 표시</string>
+    <string name="show_options">옵션 표시</string>
+    <string name="hide_options">옵션 숨기기</string>
+    <string name="cover_player">커버 플레이어</string>
+    <string name="cover_player_desc">커버의 모양, 크기, 회전을 사용자 지정합니다</string>
+    <string name="shape_default">기본값</string>
+    <string name="shape_square">사각형</string>
+    <string name="shape_circular">원형</string>
+    <string name="cover_size">커버 크기</string>
+    <string name="cover_spin">재생 중 회전</string>
+    <string name="cover_vinyl">비닐 레코드 효과</string>
+    <string name="cover_preview">플레이어 미리보기</string>
+    <string name="cover_shape_title">커버 모양</string>
+    <string name="size_small">작게 (70%)</string>
+    <string name="size_medium">보통 (85%)</string>
+    <string name="size_large">크게 (100%)</string>
+    <string name="circular_effects">원형 효과</string>
+    <string name="cover_spin_desc">재생 중 커버를 계속 회전시킵니다</string>
+    <string name="cover_vinyl_desc">비닐 레코드 텍스처 링을 추가합니다</string>
+    <string name="controls_player">컨트롤 플레이어</string>
+    <string name="controls_player_desc">이전 및 다음 버튼을 사용자 지정합니다</string>
+    <string name="controls_preview">컨트롤 미리보기</string>
+    <string name="controls_style_title">버튼 스타일</string>
+    <string name="controls_filled">채워진 아이콘</string>
+    <string name="controls_filled_desc">단색으로 채워진 아이콘을 사용합니다</string>
+    <string name="controls_custom_color">사용자 지정 컨트롤 색상</string>
+    <string name="controls_custom_color_desc">동적 Material You 색상 또는 사용자 지정 팔레트 색상을 사용합니다</string>
+    <string name="color_palette">색상 팔레트</string>
+    <string name="restore_default_title">기본값으로 복원</string>
+    <string name="categories">카테고리</string>
+    <string name="edit_information">정보 편집</string>
+    <string name="info_updated">정보가 업데이트되었습니다</string>
+    <string name="info_restored">정보가 복원되었습니다</string>
+    <string name="player_queue">대기열</string>
+    <string name="play_next">다음에 재생</string>
+    <string name="player_options">옵션</string>
+    <string name="option_share">공유</string>
+    <string name="option_repeat_one">한 곡 반복</string>
+    <string name="option_repeat_all">전체 반복</string>
+    <string name="option_repeat_off">끄기</string>
+    <string name="output_speaker">스피커</string>
+    <string name="output_headphones">헤드폰</string>
+    <string name="no_song_playing">재생 중인 곡 없음</string>
+    <string name="output_bluetooth">블루투스</string>
+    <string name="queue_now_playing">현재 재생 중</string>
+    <string name="queue_up_next">다음 곡</string>
+    <string name="option_visualizer">비주얼라이저</string>
+    <string name="visualizer_full_player">전체 플레이어에 표시</string>
+    <string name="visualizer_mini_player">미니 플레이어에 표시</string>
+    <string name="credits">크레딧</string>
+    <string name="credits_desc">테스트, 디자인 제안, 로고</string>
+    <string name="creator_desc">SuikaPlayer 음악 플레이어의 제작자 겸 관리자</string>
+    <string name="gesture">제스처</string>
+    <string name="gesture_desc">앱 제스처를 사용자 지정합니다</string>
+    <string name="enable_gestures">제스처 활성화</string>
+    <string name="enable_gestures_desc">플레이어에서 제스처 컨트롤을 활성화합니다</string>
+    <string name="change_gesture">제스처 변경</string>
+    <string name="change_gesture_desc">위로 스와이프 제스처를 변경합니다</string>
+    <string name="blur">블러</string>
+    <string name="blur_desc">배경 흐림 효과를 설정합니다</string>
+    <string name="enable_blur">블러 활성화</string>
+    <string name="enable_blur_desc">앨범 아트를 흐림 배경으로 표시합니다</string>
+    <string name="blur_dark_mode">다크 모드</string>
+    <string name="blur_dark_mode_desc">다크 모드에서 블러 효과를 표시합니다</string>
+    <string name="blur_light_mode">라이트 모드</string>
+    <string name="blur_light_mode_desc">라이트 모드에서 블러 효과를 표시합니다</string>
+    <string name="blur_cinematic_mode">시네마틱 모드</string>
+    <string name="blur_cinematic_mode_desc">시네마틱 모드에서 블러 효과를 표시합니다</string>
+    <string name="blur_controls">컨트롤</string>
+    <string name="blur_controls_desc">블러 배경과 조화되도록 색상을 조정합니다</string>
+    <string name="other">기타</string>
+
+    <!-- Users -->
+    <string name="demon">MrAlyangPratasa</string>
+    <string name="desukia">Desukia</string>
+
+    <!-- Open Source Libraries -->
+    <string name="open_source_libraries">오픈소스 라이브러리</string>
+    <string name="coil_desc">Kotlin Coroutines 기반 Android용 이미지 로딩 라이브러리.\n라이선스: Apache License 2.0</string>
+
+    <string name="gson_desc">Java 객체를 JSON으로, 또는 그 반대로 변환하는 Java 직렬화/역직렬화 라이브러리.\n라이선스: Apache License 2.0</string>
+    <string name="room_desc">Room 지속성 라이브러리는 SQLite 위에 추상화 계층을 제공합니다.\n라이선스: Apache License 2.0</string>
+    <string name="compose_desc">네이티브 UI 구축을 위한 Android의 최신 툴킷.\n라이선스: Apache License 2.0</string>
+    <string name="jaudiotagger_desc">ID3, Vorbis, FLAC 등의 태그 형식을 편집하고 읽기 위한 오디오 태깅 라이브러리.\n라이선스: LGPL v2.1</string>
+    <string name="quicksand_desc">Quicksand는 Andrew Paglinawan이 디자인한 산세리프 서체입니다.\n라이선스: SIL Open Font License 1.1</string>
+
+    <string name="permissions">권한</string>
+    <string name="permissions_desc">사용된 권한에 대한 정보</string>
+    <string name="perm_storage_title">저장소 액세스</string>
+    <string name="perm_storage_desc">기기의 음악 파일을 검색하고 폴더를 관리하는 데 필요합니다.</string>
+    <string name="perm_notifications_title">알림</string>
+    <string name="perm_notifications_desc">알림 표시줄에 재생 컨트롤과 정보를 표시하는 데 필요합니다.</string>
+
+    <string name="perm_bluetooth_title">블루투스</string>
+    <string name="perm_bluetooth_desc">블루투스 오디오 기기와의 연결을 감지하고 관리하는 데 필요합니다.</string>
+    <string name="perm_record_audio_title">오디오 녹음</string>
+    <string name="perm_record_audio_desc">오디오 비주얼라이저가 실시간 주파수 데이터를 처리하고 표시하는 데 필요합니다.</string>
+
+    <!-- Playlist Export/Import -->
+    <string name="sort_options_title">곡 정렬</string>
+    <string name="sort_ascending">오름차순</string>
+    <string name="sort_descending">내림차순</string>
+    <string name="sort_track_number">트랙 번호</string>
+    <string name="sort_alphabetical">가나다순</string>
+    <string name="sort_artist">아티스트</string>
+    <string name="sort_duration">재생 시간</string>
+    <string name="sort_date_added">추가된 날짜</string>
+    <string name="backup_warning_title">중요 안내</string>
+    <string name="backup_warning_desc">SuikaPlayer는 이 앱에서 미리 내보낸 재생목록만 가져올 수 있습니다. 올바른 재생을 위해 해당 음악 파일이 이 기기에 저장되어 있는지 확인하세요.</string>
+    <string name="export_playlists">재생목록 내보내기</string>
+    <string name="export_playlists_desc">재생목록을 파일로 저장합니다</string>
+    <string name="import_playlists">재생목록 가져오기</string>
+    <string name="import_playlists_desc">파일에서 재생목록을 복원합니다</string>
+    <string name="export_success">재생목록을 성공적으로 내보냈습니다</string>
+    <string name="export_error">재생목록 내보내기 오류</string>
+    <string name="import_success">재생목록을 성공적으로 가져왔습니다</string>
+    <string name="import_error">재생목록 가져오기 오류</string>
+    <string name="song_singular">곡</string>
+    <string name="song_plural">곡</string>
+    <string name="no_music_available">사용 가능한 음악이 없습니다</string>
+    <string name="permission_required">권한이 필요합니다</string>
+
+    <!-- Welcome Card -->
+    <string name="welcome_morning">좋은 아침이에요</string>
+    <string name="welcome_noon">좋은 점심이에요</string>
+    <string name="welcome_afternoon">좋은 오후예요</string>
+    <string name="welcome_evening">좋은 저녁이에요</string>
+    <string name="welcome_night">좋은 밤 되세요</string>
+    <string name="welcome_early_morning">좋은 새벽이에요</string>
+    <string name="stats_hours_unit">%d시간</string>
+    <string name="stats_minutes_unit">%d분</string>
+    <string name="stats_seconds_unit">%d초</string>
+    <string name="stats_music_unit">의 음악</string>
+
+    <!-- Info Cards -->
+    <string name="info_card_time">축하합니다! 오늘 %s 동안 음악을 들었어요</string>
+    <string name="info_card_songs">음악을 정말 좋아하시네요! 총 %d곡을 보유하고 있어요. 계속 즐겨보세요!</string>
+    <string name="info_card_favorites_has">즐겨찾는 곡이 %d개 있어요. 계속 즐겨보세요!</string>
+    <string name="info_card_favorites_none">아직 즐겨찾는 곡이 없어요. 추가해보세요!</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_description">당신의 기기를 위한 가장 진보된 음악 플레이어.</string>
+    <string name="onboarding_start_button">시작</string>
+    <string name="onboarding_perm_audio_title">오디오 녹음</string>
+    <string name="onboarding_perm_required">권한 필요</string>
+    <string name="onboarding_perm_audio_desc">음악을 듣는 동안 오디오 비주얼라이저가 실시간 주파수 데이터를 처리하고 표시하는 데 필요합니다.</string>
+    <string name="onboarding_grant_button">권한 허용</string>
+    <string name="onboarding_next_button">다음</string>
+    <string name="onboarding_perm_bluetooth_title">블루투스</string>
+    <string name="onboarding_perm_bluetooth_desc">더 나은 청취 경험을 위해 블루투스 오디오 기기와의 연결을 감지하고 관리하는 데 필요합니다.</string>
+    <string name="onboarding_perm_notifications_title">알림</string>
+    <string name="onboarding_perm_notifications_desc">상태 표시줄과 잠금 화면에 음악 플레이어 컨트롤을 표시하여 언제든지 재생을 제어할 수 있도록 합니다.</string>
+    <string name="onboarding_perm_music_title">음악 &amp; 오디오</string>
+    <string name="onboarding_perm_music_desc">이 기기에 저장된 음악 컬렉션을 스캔, 색인화 및 재생하는 데 필수적입니다.</string>
+    <string name="onboarding_perm_manage_files_title">음악 폴더 액세스</string>
+    <string name="onboarding_perm_manage_files_desc">SuikaPlayer가 라이브러리를 안전하게 정리하고 관리할 수 있도록 음악 폴더를 선택하세요.</string>
+    <string name="onboarding_welcome_back">SuikaPlayer에 오신 것을 환영합니다</string>
+    <string name="onboarding_listen_style">스타일리시하게 감상하세요</string>
+    <string name="onboarding_feature_hifi">HiFi 오디오 지원</string>
+
+    <string name="onboarding_feature_title">사용자 지정 가능한 제목</string>
+    <string name="onboarding_feature_lyrics">다이나믹 가사</string>
+    <string name="onboarding_feature_mix">크로스페이드 &amp; 오토믹스</string>
+    <string name="onboarding_feature_more">그리고 더 많은 기능…</string>
+    <string name="onboarding_finish_button">완료</string>
+    <string name="onboarding_skip_button">나중에 하기</string>
+    <string name="onboarding_reminder_title">모든 것은 당신의 선택입니다</string>
+    <string name="onboarding_reminder_desc">권한을 건너뛰었다면, 나중에 설정 > 보안 > 권한에서 쉽게 활성화할 수 있습니다.</string>
+    <string name="onboarding_reminder_button">확인했어요</string>
+    <string name="onboarding_folder_visibility_title">폴더 표시 설정</string>
+    <string name="onboarding_folder_visibility_desc">기본적으로 SuikaPlayer는 선택한 음악 폴더의 곡만 표시합니다. 이 옵션을 활성화하면 처음부터 기기의 모든 음악 폴더를 표시합니다.</string>
+    <string name="onboarding_folder_visibility_label">모든 폴더 표시</string>
+    <string name="onboarding_support_title">프로젝트 후원하기</string>
+    <string name="onboarding_support_desc">SuikaPlayer가 마음에 드셨다면, 설정 > 정보의 후원 섹션을 통해 저희를 지원하는 것을 고려해 주세요. 모든 후원이 앱의 성장에 큰 도움이 됩니다!</string>
+    <string name="search_play_all">재생</string>
+    <string name="search_shuffle">셔플</string>
+    <string name="playing_from">재생 위치: %s</string>
+    <string name="playing_from_search">검색 결과</string>
+    <string name="option_speed">속도</string>
+    <string name="preset_name">프리셋 이름</string>
+    <string name="cd_save_preset">프리셋 저장</string>
+    <string name="cd_delete_preset">프리셋 삭제</string>
+
+    <!-- Donate -->
+    <string name="donate_title">프로젝트 후원하기</string>
+    <string name="paypal">PayPal</string>
+    <string name="monero">Monero</string>
+    <string name="monero_address">88s5Re4p6a3P9TtqaG1G2Yeq5Ppp1w1npXebyLjktuxYgurFAGn4GRbKuPKGbx1pD1bBwohtAriL7JqB12ECp4SnMN1T3q9</string>
+    <string name="copied">클립보드에 복사됨</string>
+    <string name="internal_storage">내부 저장소</string>
+    <string name="sd_card">SD 카드</string>
+    <string name="folder_browser_title">폴더 탐색기</string>
+    <string name="no_songs_folder">이 폴더에 곡이 없습니다</string>
+    <string name="show_hero_section">인사 카드 표시</string>
+    <string name="show_hero_section_desc">홈 화면에 인사말 및 통계 카드를 표시합니다</string>
+</resources>

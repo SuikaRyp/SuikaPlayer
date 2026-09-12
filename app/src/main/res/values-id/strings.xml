@@ -1,0 +1,362 @@
+<resources>
+    <string name="app_name">SuikaPlayer</string>
+    <string name="settings">Pengaturan</string>
+    <string name="about">Tentang</string>
+    <string name="version">Versi</string>
+    <string name="license">Lisensi</string>
+    <string name="author">Pembuat</string>
+    <string name="hifi_audio">Audio Hi-Fi</string>
+    <string name="hifi_desc">Aktifkan deteksi dan lencana Hi-Fi</string>
+    <string name="keep_screen_on">Layar Tetap Menyala</string>
+    <string name="keep_screen_on_desc">Mencegah layar mati saat aplikasi digunakan</string>
+
+    <string name="general">Umum</string>
+    <string name="cinematic_player">Pemutar Sinematik</string>
+    <string name="cinematic_player_desc">Mengaktifkan tampilan imersif dengan sampul album bergerak dan gradasi halus.</string>
+    <string name="shortcut_playlists">Playlist</string>
+    <string name="backup">Cadangan</string>
+    <string name="security">Keamanan</string>
+
+    <!-- UI/Player Strings -->
+    <string name="eq_title">Equalizer</string>
+    <string name="eq_empty_hint">Putar lagu untuk mengatur Equalizer</string>
+    <string name="bass_label">EXTRA BASS</string>
+    <string name="spatial_audio_label">Audio Spasial</string>
+    <string name="loudness_label">Kekerasan Suara</string>
+    <string name="reverb_label">Reverb</string>
+    <string name="balance_label">Balance</string>
+    <string name="balance_reset">Reset balance</string>
+    <string name="dynamics_label">Dinamika</string>
+    <string name="pitch_label">Pitch</string>
+    <string name="pitch_reset">Reset pitch</string>
+    <string name="restore_defaults">Kembalikan default</string>
+    <string name="disabled">Nonaktif</string>
+    <string name="open_queue">Buka Antrean</string>
+    
+    <!-- EQ Bands -->
+    <string name="band_sub_bass">Sub Bass</string>
+    <string name="band_bass">Bass</string>
+    <string name="band_mid">Mid</string>
+    <string name="band_presence">Presence</string>
+    <string name="band_brilliance">Brilliance</string>
+
+    <!-- Metadata Editor -->
+    <string name="edit_title">Judul</string>
+    <string name="edit_artist">Artis</string>
+    <string name="edit_album">Album</string>
+    <string name="edit_genre">Genre</string>
+    <string name="save_changes">Simpan Perubahan</string>
+
+    <!-- Library Tabs -->
+    <string name="tab_resume">Beranda</string>
+    <string name="tab_genres">Genre</string>
+    <string name="resume_recommendations">Rekomendasi</string>
+    <string name="resume_online_songs">Lagu Online</string>
+    <string name="resume_top_playlists">Playlist Teratas</string>
+    <string name="resume_top_artists">Artis Teratas</string>
+    <string name="resume_top_genres">Genre Teratas</string>
+    <string name="rescan_library">Pindai Ulang Koleksi</string>
+    <string name="rescan_library_desc">Paksa pindai media sistem untuk file audio baru</string>
+    <string name="rescan_library_success">Koleksi diperbarui: %1$d lagu ditemukan</string>
+    <string name="audio_settings">Audio</string>
+    <string name="audio_settings_desc">Lencana Hi-Fi, pemrosesan float 32-bit &amp; output AAudio</string>
+    <string name="hifi_badge">Lencana Hi-Fi</string>
+    <string name="hifi_badge_desc">Tampilkan lencana Hi-Fi untuk file audio lossless resolusi tinggi</string>
+    <string name="audio_32bit_float">Pemrosesan Float 32-bit</string>
+    <string name="audio_32bit_float_desc">Proses audio menggunakan presisi floating point 32-bit untuk headroom maksimal dan tanpa clipping</string>
+    <string name="audio_exclusive_mode">Mode Output Eksklusif</string>
+    <string name="audio_exclusive_mode_desc">Lewati mixer sistem Android lewat perutean perangkat keras langsung AAudio</string>
+    <string name="resume_recently_added">Baru Ditambahkan</string>
+    <string name="tab_all">Semua</string>
+    <string name="tab_favorites">Favorit</string>
+    <string name="tab_folders">Folder</string>
+    <string name="tab_songs">Lagu</string>
+    <string name="tab_artists">Artis</string>
+    <string name="tab_albums_real">Album</string>
+    <string name="tab_albums">Artis</string>
+
+    <!-- Player Options -->
+    <string name="option_shuffle">Acak</string>
+    <string name="option_crossfade">Crossfade</string>
+    <string name="option_automix">Automix</string>
+    <string name="option_timer">Timer</string>
+    <string name="option_lyrics">Lirik</string>
+    <string name="transition_mixing">Mixing</string>
+    <string name="transition_crossfade">Crossfade</string>
+    <string name="crossfade_time">Durasi Crossfade</string>
+    <string name="crossfade_time_desc">Atur durasi transisi crossfade</string>
+    <string name="unknown_artist">Artis Tidak Dikenal</string>
+    <string name="unknown_song">Lagu Tidak Dikenal</string>
+    
+    <!-- Accessibility / Icons -->
+    <string name="cd_back">Kembali</string>
+    <string name="cd_restore">Pulihkan</string>
+    
+    <!-- Other UI -->
+    <string name="filter_folders">Filter Folder</string>
+    <string name="option_favorite">Favorit</string>
+
+    <string name="language">Bahasa</string>
+    <string name="select_language">Pilih Bahasa</string>
+    <string name="lang_system">Bawaan Sistem</string>
+    <string name="lang_english">Inggris</string>
+    <string name="lang_indonesian">Indonesia</string>
+    <string name="lang_japanese">Jepang</string>
+    <string name="lang_korean">Korea</string>
+    <string name="lang_spanish">Spanyol</string>
+    <string name="lang_portuguese">Portugis</string>
+    <string name="lang_french">Prancis</string>
+    <string name="lang_chinese">Mandarin</string>
+    <string name="lang_german">Jerman</string>
+    <string name="lang_russian">Rusia</string>
+    <string name="lang_persian">Persia</string>
+
+    <string name="ok">OK</string>
+    <string name="cd_activate_eq">Aktifkan EQ</string>
+    <string name="cd_play_pause">Putar/Jeda</string>
+    <string name="cd_change_cover">Ganti sampul</string>
+    <string name="playlists">Playlist</string>
+    <string name="add_to_playlist">Playlist</string>
+    <string name="create_playlist">Buat Playlist</string>
+    <string name="playlist_name">Nama Playlist</string>
+    <string name="edit_playlist_name">Ubah Nama Playlist</string>
+    <string name="cancel">Batal</string>
+    <string name="create">Buat</string>
+    <string name="save">Simpan</string>
+    <string name="no_songs_in_playlist">Belum ada lagu di playlist ini</string>
+    <string name="theme_auto">Otomatis (Sistem)</string>
+    <string name="theme_light">Mode Terang</string>
+    <string name="theme_dark">Mode Gelap</string>
+    <string name="add_songs">Tambah Lagu</string>
+    <string name="search_songs">Cari lagu…</string>
+    <string name="save_selection">Simpan</string>
+    <string name="delete_song">Hapus dari perangkat</string>
+    <string name="delete_song_warning">Yakin? Lagu ini akan dihapus permanen dari perangkat kamu.</string>
+    <string name="restore_music">Pulihkan</string>
+    <string name="song_deleted">Lagu dihapus</string>
+    <string name="edit_name">Ubah Nama</string>
+    <string name="search">Cari</string>
+    <string name="search_filter">Filter hasil</string>
+    <string name="search_filter_all">Semua</string>
+    <string name="search_filter_playlist">Playlist</string>
+    <string name="search_filter_album">Album</string>
+    <string name="search_filter_artist">Artis</string>
+    <string name="search_filter_folder">Folder</string>
+    <string name="search_filter_cancel">Batal</string>
+    <string name="search_hint">Cari lagu, artis, atau album...</string>
+    <string name="delete_playlist">Hapus Playlist</string>
+    <string name="delete_playlist_confirm">Yakin ingin menghapus playlist ini?</string>
+    <string name="delete">Hapus</string>
+    <string name="custom_title">Judul Kustom</string>
+    <string name="section_customization">Sesuaikan bagian</string>
+    <string name="sections_title">Bagian</string>
+    <string name="section_customization_desc">Pilih tab bagian mana yang ditampilkan</string>
+    <string name="section_customization_albums">Artis / Album</string>
+    <string name="customization">Kustomisasi</string>
+    <string name="customization_desc">Sesuaikan gaya aplikasi, judul, dan warna</string>
+    <string name="use_custom_colors">Gunakan warna kustom</string>
+    <string name="use_custom_colors_desc">Ganti warna dinamis dengan warna yang sudah ditentukan</string>
+    <string name="amoled_pitch_black">AMOLED Hitam Pekat</string>
+    <string name="amoled_pitch_black_desc">Gunakan latar hitam pekat pada mode gelap</string>
+    <string name="media_player">Pemutar Media</string>
+    <string name="haptic_vibration">Getaran Haptik</string>
+    <string name="haptic_vibration_desc">Getaran halus saat menggunakan kontrol pemutar</string>
+    <string name="song_info">Info Lagu</string>
+    <string name="song_info_desc">Tampilkan format audio dan bitrate di pemutar dan daftar lagu</string>
+    <string name="show_in_song_list">Tampilkan di daftar lagu</string>
+    <string name="show_in_full_player">Tampilkan di pemutar penuh</string>
+    <string name="show_options">Tampilkan opsi</string>
+    <string name="hide_options">Sembunyikan opsi</string>
+    <string name="cover_player">Sampul pemutar</string>
+    <string name="cover_player_desc">Sesuaikan bentuk, ukuran, dan rotasi sampul</string>
+    <string name="shape_default">Default</string>
+    <string name="shape_square">Kotak</string>
+    <string name="shape_circular">Bulat</string>
+    <string name="cover_size">Ukuran Sampul</string>
+    <string name="cover_spin">Berputar saat diputar</string>
+    <string name="cover_vinyl">Efek piringan vinyl</string>
+    <string name="cover_preview">Pratinjau pemutar</string>
+    <string name="cover_shape_title">Bentuk sampul</string>
+    <string name="size_small">Kecil (70%)</string>
+    <string name="size_medium">Sedang (85%)</string>
+    <string name="size_large">Besar (100%)</string>
+    <string name="circular_effects">Efek bulat</string>
+    <string name="cover_spin_desc">Putar sampul terus-menerus saat lagu diputar</string>
+    <string name="cover_vinyl_desc">Tambahkan cincin tekstur piringan vinyl</string>
+    <string name="controls_player">Kontrol pemutar</string>
+    <string name="controls_player_desc">Sesuaikan tombol sebelumnya dan berikutnya</string>
+    <string name="controls_preview">Pratinjau kontrol</string>
+    <string name="controls_style_title">Gaya tombol</string>
+    <string name="controls_filled">Ikon terisi</string>
+    <string name="controls_filled_desc">Gunakan ikon terisi penuh</string>
+    <string name="controls_custom_color">Warna kontrol kustom</string>
+    <string name="controls_custom_color_desc">Gunakan warna dinamis Material You atau palet kustom</string>
+    <string name="color_palette">Palet Warna</string>
+    <string name="restore_default_title">Kembalikan default</string>
+    <string name="categories">Kategori</string>
+    <string name="edit_information">Ubah Informasi</string>
+    <string name="info_updated">Informasi diperbarui</string>
+    <string name="info_restored">Informasi dipulihkan</string>
+    <string name="player_queue">Antrean</string>
+    <string name="play_next">Putar berikutnya</string>
+    <string name="player_options">Opsi</string>
+    <string name="option_share">Bagikan</string>
+    <string name="option_repeat_one">Ulangi Satu</string>
+    <string name="option_repeat_all">Ulangi Semua</string>
+    <string name="option_repeat_off">Nonaktif</string>
+    <string name="output_speaker">Speaker</string>
+    <string name="output_headphones">Headphone</string>
+    <string name="no_song_playing">Tidak ada yang diputar</string>
+    <string name="output_bluetooth">Bluetooth</string>
+    <string name="queue_now_playing">Sedang Diputar</string>
+    <string name="queue_up_next">Berikutnya</string>
+    <string name="option_visualizer">Visualizer</string>
+    <string name="visualizer_full_player">Tampilkan di Pemutar Penuh</string>
+    <string name="visualizer_mini_player">Tampilkan di Mini Player</string>
+    <string name="credits">Kredit</string>
+    <string name="credits_desc">Pengujian, saran desain, dan logo</string>
+    <string name="creator_desc">Pembuat dan pengelola pemutar musik SuikaPlayer</string>
+    <string name="gesture">Gestur</string>
+    <string name="gesture_desc">Sesuaikan gestur aplikasi</string>
+    <string name="enable_gestures">Aktifkan gestur</string>
+    <string name="enable_gestures_desc">Aktifkan kontrol gestur di pemutar</string>
+    <string name="change_gesture">Ubah gestur</string>
+    <string name="change_gesture_desc">Ubah gestur geser ke atas</string>
+    <string name="blur">Blur</string>
+    <string name="blur_desc">Atur efek blur latar belakang</string>
+    <string name="enable_blur">Aktifkan blur</string>
+    <string name="enable_blur_desc">Tampilkan sampul album sebagai latar belakang blur</string>
+    <string name="blur_dark_mode">Mode gelap</string>
+    <string name="blur_dark_mode_desc">Tampilkan efek blur pada mode gelap</string>
+    <string name="blur_light_mode">Mode terang</string>
+    <string name="blur_light_mode_desc">Tampilkan efek blur pada mode terang</string>
+    <string name="blur_cinematic_mode">Mode sinematik</string>
+    <string name="blur_cinematic_mode_desc">Tampilkan efek blur pada mode sinematik</string>
+    <string name="blur_controls">Kontrol</string>
+    <string name="blur_controls_desc">Sesuaikan warna agar selaras dengan latar blur</string>
+    <string name="other">Lainnya</string>
+
+    <!-- Users -->
+    <string name="demon">MrAlyangPratasa</string>
+    <string name="desukia">Desukia</string>
+
+    <!-- Open Source Libraries -->
+    <string name="open_source_libraries">Pustaka Sumber Terbuka</string>
+    <string name="coil_desc">Pemuat gambar untuk Android berbasis Kotlin Coroutines.\nLisensi: Apache License 2.0</string>
+
+    <string name="gson_desc">Pustaka serialisasi/deserialisasi Java untuk mengubah Objek Java menjadi JSON dan sebaliknya.\nLisensi: Apache License 2.0</string>
+    <string name="room_desc">Pustaka persistensi Room menyediakan lapisan abstraksi di atas SQLite.\nLisensi: Apache License 2.0</string>
+    <string name="compose_desc">Toolkit modern Android untuk membangun UI native.\nLisensi: Apache License 2.0</string>
+    <string name="jaudiotagger_desc">Pustaka Audio Tagging untuk mengedit dan membaca format tag seperti ID3, Vorbis, dan FLAC.\nLisensi: LGPL v2.1</string>
+    <string name="quicksand_desc">Quicksand adalah jenis huruf sans-serif rancangan Andrew Paglinawan.\nLisensi: SIL Open Font License, 1.1</string>
+
+    <string name="permissions">Izin</string>
+    <string name="permissions_desc">Informasi tentang izin yang digunakan</string>
+    <string name="perm_storage_title">Akses Penyimpanan</string>
+    <string name="perm_storage_desc">Diperlukan untuk memindai file musik dan mengelola folder di perangkat kamu.</string>
+    <string name="perm_notifications_title">Notifikasi</string>
+    <string name="perm_notifications_desc">Diperlukan untuk menampilkan kontrol pemutaran dan informasi di bilah notifikasi.</string>
+
+    <string name="perm_bluetooth_title">Bluetooth</string>
+    <string name="perm_bluetooth_desc">Diperlukan untuk mendeteksi dan mengelola koneksi dengan perangkat audio bluetooth.</string>
+    <string name="perm_record_audio_title">Rekam Audio</string>
+    <string name="perm_record_audio_desc">Diperlukan agar visualizer audio dapat memproses dan menampilkan data frekuensi secara real-time.</string>
+
+    <!-- Playlist Export/Import -->
+    <string name="sort_options_title">Urutkan Lagu</string>
+    <string name="sort_ascending">Menaik</string>
+    <string name="sort_descending">Menurun</string>
+    <string name="sort_track_number">Nomor Track</string>
+    <string name="sort_alphabetical">Abjad</string>
+    <string name="sort_artist">Artis</string>
+    <string name="sort_duration">Durasi</string>
+    <string name="sort_date_added">Tanggal Ditambahkan</string>
+    <string name="backup_warning_title">Pemberitahuan Penting</string>
+    <string name="backup_warning_desc">SuikaPlayer hanya dapat mengimpor playlist yang sebelumnya diekspor oleh aplikasi ini. Pastikan file musik terkait tersimpan di perangkat ini agar dapat diputar dengan benar.</string>
+    <string name="export_playlists">Ekspor Playlist</string>
+    <string name="export_playlists_desc">Simpan playlist kamu ke sebuah file</string>
+    <string name="import_playlists">Impor Playlist</string>
+    <string name="import_playlists_desc">Pulihkan playlist dari sebuah file</string>
+    <string name="export_success">Playlist berhasil diekspor</string>
+    <string name="export_error">Gagal mengekspor playlist</string>
+    <string name="import_success">Playlist berhasil diimpor</string>
+    <string name="import_error">Gagal mengimpor playlist</string>
+    <string name="song_singular">lagu</string>
+    <string name="song_plural">lagu</string>
+    <string name="no_music_available">Tidak ada musik tersedia</string>
+    <string name="permission_required">Izin diperlukan</string>
+
+    <!-- Welcome Card -->
+    <string name="welcome_morning">Selamat Pagi</string>
+    <string name="welcome_noon">Selamat Siang</string>
+    <string name="welcome_afternoon">Selamat Sore</string>
+    <string name="welcome_evening">Selamat Petang</string>
+    <string name="welcome_night">Selamat Malam</string>
+    <string name="welcome_early_morning">Selamat Dini Hari</string>
+    <string name="stats_hours_unit">%dj</string>
+    <string name="stats_minutes_unit">%dm</string>
+    <string name="stats_seconds_unit">%dd</string>
+    <string name="stats_music_unit">musik</string>
+
+    <!-- Info Cards -->
+    <string name="info_card_time">Selamat! Hari ini kamu sudah mendengarkan musik selama %s</string>
+    <string name="info_card_songs">Kelihatannya kamu suka musik! Kamu punya %d lagu total, terus lanjutkan!</string>
+    <string name="info_card_favorites_has">Kamu punya %d lagu favorit, terus nikmati!</string>
+    <string name="info_card_favorites_none">Kamu belum punya lagu favorit, tambahkan beberapa!</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_description">Pemutar musik paling canggih untuk perangkat kamu.</string>
+    <string name="onboarding_start_button">Mulai</string>
+    <string name="onboarding_perm_audio_title">Rekam Audio</string>
+    <string name="onboarding_perm_required">Izin Diperlukan</string>
+    <string name="onboarding_perm_audio_desc">Diperlukan agar visualizer audio dapat memproses dan menampilkan data frekuensi real-time saat kamu mendengarkan musik.</string>
+    <string name="onboarding_grant_button">Berikan Izin</string>
+    <string name="onboarding_next_button">Lanjut</string>
+    <string name="onboarding_perm_bluetooth_title">Bluetooth</string>
+    <string name="onboarding_perm_bluetooth_desc">Diperlukan untuk mendeteksi dan mengelola koneksi dengan perangkat audio bluetooth demi pengalaman mendengarkan yang lebih baik.</string>
+    <string name="onboarding_perm_notifications_title">Notifikasi</string>
+    <string name="onboarding_perm_notifications_desc">Diperlukan untuk menampilkan kontrol pemutar musik di status bar dan layar kunci, sehingga kamu bisa mengontrol pemutaran kapan saja.</string>
+    <string name="onboarding_perm_music_title">Musik &amp; Audio</string>
+    <string name="onboarding_perm_music_desc">Penting untuk memindai, mengindeks, dan memutar koleksi musik yang tersimpan di perangkat ini.</string>
+    <string name="onboarding_perm_manage_files_title">Akses Folder Musik</string>
+    <string name="onboarding_perm_manage_files_desc">Pilih folder musik kamu agar SuikaPlayer dapat mengelola koleksi kamu dengan aman.</string>
+    <string name="onboarding_welcome_back">Selamat Datang di SuikaPlayer</string>
+    <string name="onboarding_listen_style">Dengarkan dengan gaya</string>
+    <string name="onboarding_feature_hifi">Dukungan Audio HiFi</string>
+
+    <string name="onboarding_feature_title">Judul yang Dapat Disesuaikan</string>
+    <string name="onboarding_feature_lyrics">Lirik Dinamis</string>
+    <string name="onboarding_feature_mix">Crossfade &amp; Automix</string>
+    <string name="onboarding_feature_more">Dan masih banyak lagi…</string>
+    <string name="onboarding_finish_button">Selesai</string>
+    <string name="onboarding_skip_button">Lewati dulu</string>
+    <string name="onboarding_reminder_title">Kamu yang mengontrol</string>
+    <string name="onboarding_reminder_desc">Jika kamu melewati izin apa pun, kamu bisa mengaktifkannya lagi nanti di Pengaturan > Keamanan > Izin.</string>
+    <string name="onboarding_reminder_button">Mengerti</string>
+    <string name="onboarding_folder_visibility_title">Visibilitas Folder</string>
+    <string name="onboarding_folder_visibility_desc">Secara default, SuikaPlayer hanya menampilkan lagu dari folder musik pilihan kamu. Aktifkan opsi ini untuk menampilkan semua folder musik di perangkat sejak awal.</string>
+    <string name="onboarding_folder_visibility_label">Tampilkan semua folder</string>
+    <string name="onboarding_support_title">Dukung Proyek Ini</string>
+    <string name="onboarding_support_desc">Jika kamu menyukai SuikaPlayer, pertimbangkan untuk mendukung kami lewat bagian Donasi di Pengaturan > Tentang. Setiap kontribusi membantu aplikasi ini terus berkembang!</string>
+    <string name="search_play_all">Putar</string>
+    <string name="search_shuffle">Acak</string>
+    <string name="playing_from">Memutar dari: %s</string>
+    <string name="playing_from_search">Hasil pencarian</string>
+    <string name="option_speed">Kecepatan</string>
+    <string name="preset_name">Nama Preset</string>
+    <string name="cd_save_preset">Simpan preset</string>
+    <string name="cd_delete_preset">Hapus preset</string>
+
+    <!-- Donate -->
+    <string name="donate_title">Dukung Proyek Ini</string>
+    <string name="paypal">PayPal</string>
+    <string name="monero">Monero</string>
+    <string name="monero_address">88s5Re4p6a3P9TtqaG1G2Yeq5Ppp1w1npXebyLjktuxYgurFAGn4GRbKuPKGbx1pD1bBwohtAriL7JqB12ECp4SnMN1T3q9</string>
+    <string name="copied">Disalin ke clipboard</string>
+    <string name="internal_storage">Penyimpanan Internal</string>
+    <string name="sd_card">Kartu SD</string>
+    <string name="folder_browser_title">Penjelajah Folder</string>
+    <string name="no_songs_folder">Tidak ada lagu ditemukan di folder ini</string>
+    <string name="show_hero_section">Tampilkan Kartu Sapaan</string>
+    <string name="show_hero_section_desc">Tampilkan kartu sapaan dan statistik di layar Beranda</string>
+</resources>

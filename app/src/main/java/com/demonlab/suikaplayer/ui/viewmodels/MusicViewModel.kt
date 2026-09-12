@@ -44,6 +44,7 @@ class MusicViewModel(application: Application) : AndroidViewModel(application) {
                 onlineMusicProvider.getOnlineSongs()
             }
             isLoading = false
+            prefetchCovers(allSongs)
         }
     }
 
@@ -57,7 +58,29 @@ class MusicViewModel(application: Application) : AndroidViewModel(application) {
                 allSongs = refreshed
             }
             isLoading = false
+            prefetchCovers(allSongs)
         }
+    }
+
+    /**
+     * Warms Coil's disk/memory cache for the first batch of cover art as
+     * soon as the catalog loads, so the Resume screen's horizontal lists
+     * (Recommendations, Recently Added, etc.) show covers instantly on
+     * first scroll instead of popping in one by one.
+     */
+    private fun prefetchCovers(songs: List<Song>) {
+        val context = getApplication<Application>()
+        val imageLoader = coil.Coil.imageLoader(context)
+        songs.asSequence()
+            .mapNotNull { it.coverUrl }
+            .distinct()
+            .take(40)
+            .forEach { url ->
+                val request = coil.request.ImageRequest.Builder(context)
+                    .data(url)
+                    .build()
+                imageLoader.enqueue(request)
+            }
     }
 
     fun updateMetadata(

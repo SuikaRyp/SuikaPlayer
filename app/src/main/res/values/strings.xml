@@ -100,6 +100,9 @@
     <string name="select_language">Select Language</string>
     <string name="lang_system">System Default</string>
     <string name="lang_english">English</string>
+    <string name="lang_indonesian">Indonesian</string>
+    <string name="lang_japanese">Japanese</string>
+    <string name="lang_korean">Korean</string>
     <string name="lang_spanish">Spanish</string>
     <string name="lang_portuguese">Portuguese</string>
     <string name="lang_french">French</string>

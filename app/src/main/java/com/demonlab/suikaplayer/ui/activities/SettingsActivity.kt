@@ -168,6 +168,9 @@ fun SettingsScreen(
                     val languages = listOf(
                         "system" to stringResource(R.string.lang_system),
                         "en" to stringResource(R.string.lang_english),
+                        "id" to stringResource(R.string.lang_indonesian),
+                        "ja" to stringResource(R.string.lang_japanese),
+                        "ko" to stringResource(R.string.lang_korean),
                         "es" to stringResource(R.string.lang_spanish),
                         "pt-BR" to stringResource(R.string.lang_portuguese),
                         "fr" to stringResource(R.string.lang_french),

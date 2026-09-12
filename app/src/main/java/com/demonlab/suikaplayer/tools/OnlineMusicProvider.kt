@@ -38,7 +38,8 @@ class OnlineMusicProvider(private val context: Context) {
 
         for (i in 0 until array.length()) {
             val obj = array.getJSONObject(i)
-            val src = obj.optString("src").takeIf { it.isNotBlank() } ?: continue
+            val rawSrc = obj.optString("src").takeIf { it.isNotBlank() } ?: continue
+            val src = toFastCdnUrl(rawSrc)
             val rawId = obj.optLong("id", (i + 1).toLong())
 
             result.add(
@@ -56,7 +57,7 @@ class OnlineMusicProvider(private val context: Context) {
                     genre = obj.optString("category").takeIf { it.isNotBlank() },
                     folderName = "Online",
                     isHiFi = false,
-                    coverUrl = obj.optString("img").takeIf { it.isNotBlank() },
+                    coverUrl = toFastCdnUrlOrNull(obj.optString("img").takeIf { it.isNotBlank() }),
                     isFavorite = false,
                     lyrics = obj.optString("lyrics").takeIf { it.isNotBlank() },
                     format = "MP3",
@@ -67,6 +68,37 @@ class OnlineMusicProvider(private val context: Context) {
         }
 
         return result
+    }
+
+    /**
+     * Rewrites `raw.githubusercontent.com/<user>/<repo>/<branch>/<path>` links
+     * to the equivalent jsDelivr CDN URL
+     * (`cdn.jsdelivr.net/gh/<user>/<repo>@<branch>/<path>`).
+     *
+     * raw.githubusercontent.com serves every request from a single origin
+     * with no CDN caching and fairly aggressive rate limiting, which is what
+     * causes covers and songs to feel slow/laggy to load. jsDelivr mirrors
+     * the exact same files but through a globally distributed CDN with edge
+     * caching and proper HTTP range-request support, so both images and
+     * audio streaming start noticeably faster - without needing to change
+     * anything about the underlying GitHub repo itself.
+     */
+    private fun toFastCdnUrl(url: String): String {
+        val marker = "raw.githubusercontent.com/"
+        val idx = url.indexOf(marker)
+        if (idx == -1) return url
+
+        val rest = url.substring(idx + marker.length) // "<user>/<repo>/<branch>/<path...>"
+        val parts = rest.split("/", limit = 4)
+        if (parts.size < 4) return url
+
+        val (user, repo, branch, path) = parts
+        return "https://cdn.jsdelivr.net/gh/$user/$repo@$branch/$path"
+    }
+
+    private fun toFastCdnUrlOrNull(url: String?): String? {
+        if (url.isNullOrBlank()) return url
+        return toFastCdnUrl(url)
     }
 
     private fun parseDurationToMillis(duration: String): Long {
