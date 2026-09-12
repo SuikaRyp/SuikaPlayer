@@ -2,16 +2,16 @@
   <img src="readme-res/logo.png" width="20%" />
   <br><br>
     <p align="center">
-      <img src="https://img.shields.io/github/v/release/MrDemonc/SuikaPlayer?style=for-the-badge&logo=android&label=SuikaPlayer&color=blue" />
+      <img src="https://img.shields.io/github/v/release/MrAlyangPratasa/SuikaPlayer?style=for-the-badge&logo=android&label=SuikaPlayer&color=blue" />
       <img src="https://img.shields.io/badge/Android-API%2024%2B-green?style=for-the-badge&logo=android&logoColor=white" />
       <img src="https://img.shields.io/badge/Kotlin-100%25-orange?style=for-the-badge&logo=kotlin&logoColor=white" /><br>
       <a href="https://www.paypal.com/paypalme/TommyZambrano">
         <img src="https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white"/>
       </a>
-      <a href="https://ko-fi.com/mrdemonc">
+      <a href="https://ko-fi.com/mralyangpratasa">
         <img src="https://img.shields.io/badge/Ko--fi-Buy me a coffee-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"/>
       </a>
-      <a href="https://github.com/MrDemonc/SuikaPlayer#-monero-xmr">
+      <a href="https://github.com/MrAlyangPratasa/SuikaPlayer#-monero-xmr">
         <img src="https://img.shields.io/badge/Monero-Donate-FF6600?style=for-the-badge&logo=monero&logoColor=white"/>
       </a>
     </p>
@@ -132,7 +132,7 @@ keyPassword=password
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/MrDemonc/SuikaPlayer.git
+   git clone https://github.com/MrAlyangPratasa/SuikaPlayer.git
    cd SuikaPlayer
    ```
 2. **Setup Environment**:
@@ -152,7 +152,7 @@ monero:88s5Re4p6a3P9TtqaG1G2Yeq5Ppp1w1npXebyLjktuxYgurFAGn4GRbKuPKGbx1pD1bBwohtA
 
 ## 🤝 Credits
 
-- **MrDemonc**: Project Creator & Lead Developer.
+- **MrAlyangPratasa**: Project Creator & Lead Developer.
 - **Desukia**: Design testing and UX feedback.
 
 ---
