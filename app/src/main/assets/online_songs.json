@@ -242,7 +242,7 @@
   {
     "id": 21,
     "title": "Kelingan Mantan",
-    "artist": "N.D.X AKA",
+    "artist": "NDX AKA",
     "album": "Lagu Galau lagu Sad",
     "src": "https://raw.githubusercontent.com/SuikaRyp/Database/main/audio/1767965080214_EMOST_ART_-_NDX_A_K_A_Kelingan_Mantan.mp3",
     "img": "https://raw.githubusercontent.com/SuikaRyp/Database/main/images/1767965078851_image_1767965078851.jpg",
@@ -1622,7 +1622,7 @@
   {
     "id": 146,
     "title": "Tewas Tertimbun Masalalu (TTM)",
-    "artist": "N.D.X A.K.A",
+    "artist": "NDX A.K.A",
     "album": "Lagu Galau Lagu Jawa",
     "src": "https://raw.githubusercontent.com/SuikaRyp/Abonimau/main/audio/1770346301021_NDX_AKA_-_Tewas_Tertimbun_Masa_Lalu__TTM_.mp3",
     "img": "https://raw.githubusercontent.com/SuikaRyp/Abonimau/main/images/1770346651810_image_1770346651810.jpg",
@@ -1644,8 +1644,8 @@
   {
     "id": 148,
     "title": "Resah Dadi Pelangi",
-    "artist": "N.D.X A.K.A",
-    "album": "Lagu Galau Lagu Jawa N.D.X A.K.A",
+    "artist": "NDX A.K.A",
+    "album": "Lagu Galau Lagu Jawa NDX A.K.A",
     "src": "https://raw.githubusercontent.com/SuikaRyp/Abonimau/main/audio/1770383230435_NDX_A.K.A_-_Rasah_Dadi_Pelangi___Official_Music_Video__.mp3",
     "img": "https://raw.githubusercontent.com/SuikaRyp/Abonimau/main/images/1770382910296_image_1770382910296.jpg",
     "duration": "3:57",
@@ -3313,5 +3313,137 @@
     "duration": "4:34",
     "category": "pop",
     "popular": true
-  }
+  },
+  {
+    "id": 259,
+    "title": "Piwales Tresno New Version ( Oficial Lyric Video )",
+    "artist": "NDX A.K.A",
+    "album": "NDX A.K.A",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789174849820_NDX_AKA_Piwales_Tresno_New_Version_Official_Lyric_Video_.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789175252660_image_1789175252660.jpg",
+    "duration": "4:15",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 260,
+    "title": "Jaran Goyang (Live at PSM Pesta Lagi Jakarta 2024)",
+    "artist": "NDX A.K.A",
+    "album": "NDX A.K.A",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789175566935_NDX_AKA_-_Jaran_Goyang__Live_at_PSM_Pesta_Lagi_Jakarta_2024_.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789175719569_image_1789175719569.jpg",
+    "duration": "4:14",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 261,
+    "title": "Jaran Goyang New Version ( Official Lyric Video )",
+    "artist": "NDX A.K.A",
+    "album": "NDX A.K.A",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789175759334_NDX_AKA_-__Jaran_Goyang_New_Version___Official_Lyric_Video__.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789175751378_image_1789175751378.jpg",
+    "duration": "4:00",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 262,
+    "title": "Jaran Goyang New Version ( Official Lyric Video )",
+    "artist": "NDX A.K.A",
+    "album": "NDX A.K.A",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789175759334_NDX_AKA_-__Jaran_Goyang_New_Version___Official_Lyric_Video__.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789175751378_image_1789175751378.jpg",
+    "duration": "4:00",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 263,
+    "title": "Konco Mesra",
+    "artist": "LEONA ZHEN Feat. STANLEY HAO",
+    "album": "LEONA ZHEN Feat. STANLEY HAO",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789175917633_LEONA_ZHEN_Feat._STANLEY_HAO_-_KONCO_MESRA.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789176153378_image_1789176153378.jpg",
+    "duration": "4:00",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 264,
+    "title": "Heroes To Night",
+    "artist": "Janji & Johning",
+    "album": "Janji & Johning",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789176279925_Heroes_Tonight_-_Janji_feat._Johnning__Lyrics_.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789176505912_image_1789176505912.jpg",
+    "duration": "3:28",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 265,
+    "title": "Goblok (Ofiicial Music Video)",
+    "artist": "NDX A.K.A",
+    "album": "NDX A.K.A",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789176628436_NDX_A.K.A_-_GOBLOK___Official_Music_Video__.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789176670159_image_1789176670159.jpg",
+    "duration": "3:59",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 266,
+    "title": "Teh Hijau ( Official Video )",
+    "artist": "TULUS",
+    "album": "TULUS",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789176972933_TULUS_-_Teh_Hijau__Official_Lyric_Video_.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789177025090_image_1789177025090.jpg",
+    "duration": "3:31",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 267,
+    "title": "Dj Sayang",
+    "artist": "Via Valen",
+    "album": "Via Valen",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789177761776_DJ_NANGING_KOWE_ORA_NGERTI_KOWE_SING_TAK_WANTI_WANTI_DJ_SAYANG.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789177848447_image_1789177848447.jpg",
+    "duration": "6:04",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 268,
+    "title": "Sayang",
+    "artist": "NDX A.K.A",
+    "album": "NDX A.K.A",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789177980386_NDX_AKA_-_Sayang.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789178117921_image_1789178117921.jpg",
+    "duration": "4:53",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 269,
+    "title": "DJ YOU DON'T EVEN KNOW ME",
+    "artist": "DJ Dini Tekok",
+    "album": "Dj Dini Tekok",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789178368202_DJ_Dini_Takek_-_Topic_-_DJ_YOU_DON_T_EVEN_KNOW_ME.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789178574769_image_1789178574769.jpg",
+    "duration": "7:18",
+    "category": "pop",
+    "popular": true
+  },
+  {
+    "id": 270,
+    "title": "Raiso Ngapusi",
+    "artist": "Tekomlaku, Ervinsof",
+    "album": "Tekomlaku, Ervinsof",
+    "src": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/audio/1789178891761_TEKOMLAKU_ft_Ervinsof_-_Raiso_Ngapusi__Official_Music_Video_.mp3",
+    "img": "https://raw.githubusercontent.com/SuikaRyp/Penyimpanan-Lagu/main/images/1789178948372_image_1789178948372.jpg",
+    "duration": "5:36",
+    "category": "pop",
+    "popular": true
+  },
 ]

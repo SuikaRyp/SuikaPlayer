@@ -5,20 +5,6 @@ import androidx.core.net.toUri
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.json.JSONArray
-
-/**
- * Provides the "online" song library shown on the home screen when the device
- * has an active internet connection (Wi-Fi or mobile data).
- *
- * The catalog itself is bundled as a JSON asset (assets/online_songs.json),
- * generated from SuikaRyp's public song database. Each entry points to a
- * remotely hosted audio file that is streamed directly (no download needed),
- * the same way the existing MediaPlayer-based playback pipeline already
- * streams any http(s) Uri.
- *
- * When there is no internet connection, this provider is simply not used and
- * the app falls back to [MusicProvider], which reads songs from local storage.
- */
 class OnlineMusicProvider(private val context: Context) {
 
     companion object {

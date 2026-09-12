@@ -222,7 +222,7 @@ fun CoverCustomizationScreen(
                                 color = MaterialTheme.colorScheme.onSurface
                             )
                             Text(
-                                "SuikaPlayer MrDemonc",
+                                "SuikaPlayer",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )

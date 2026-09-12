@@ -190,7 +190,7 @@ fun AboutScreen() {
             ) {
                 Button(
                     onClick = { 
-                        uriHandler.openUri("https://github.com/MrDemonc/SuikaPlayer/tree/main")
+                        uriHandler.openUri("https://github.com/SuikaRyp/SuikaPlayer/tree/main")
                     },
                     modifier = Modifier.weight(1f),
                     shape = RoundedCornerShape(16.dp),
