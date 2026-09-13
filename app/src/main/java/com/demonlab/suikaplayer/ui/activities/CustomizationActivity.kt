@@ -122,8 +122,6 @@ fun CustomizationScreen(
     onSongInfoChanged: (Boolean) -> Unit,
     onCinematicChanged: (Boolean) -> Unit
 ) {
-    var showCustomTitleDialog by remember { mutableStateOf(false) }
-    var customTitle by remember { mutableStateOf(settingsManager.customTitle) }
     var showBitrateSheet by remember { mutableStateOf(false) }
     var isSectionCustomizationEnabled by remember { mutableStateOf(settingsManager.isSectionCustomizationEnabled) }
     var hiddenSectionTabs by remember { mutableStateOf(settingsManager.hiddenSectionTabs) }
@@ -131,43 +129,6 @@ fun CustomizationScreen(
     var crossfadeDurationSeconds by remember { mutableStateOf(settingsManager.crossfadeDurationSeconds) }
 
     val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
-
-    if (showCustomTitleDialog) {
-        var tempTitle by remember { mutableStateOf(customTitle) }
-        AlertDialog(
-            onDismissRequest = { showCustomTitleDialog = false },
-            title = { Text(stringResource(R.string.custom_title)) },
-            text = {
-                OutlinedTextField(
-                    value = tempTitle,
-                    onValueChange = { tempTitle = it },
-                    label = { Text("Titulo") },
-                    singleLine = true,
-                    modifier = Modifier.fillMaxWidth(),
-                    trailingIcon = {
-                        IconButton(onClick = { tempTitle = "" }) {
-                            Icon(Icons.Default.Refresh, contentDescription = stringResource(R.string.restore_default_title))
-                        }
-                    }
-                )
-            },
-            confirmButton = {
-                TextButton(onClick = {
-                    customTitle = tempTitle
-                    settingsManager.customTitle = tempTitle
-                    showCustomTitleDialog = false
-                }) {
-                    Text(stringResource(R.string.ok))
-                }
-            },
-            dismissButton = {
-                TextButton(onClick = { showCustomTitleDialog = false }) {
-                    Text(stringResource(R.string.cancel))
-                }
-            },
-            shape = RoundedCornerShape(28.dp)
-        )
-    }
 
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
@@ -217,18 +178,10 @@ fun CustomizationScreen(
         ) {
             SettingsSection(title = stringResource(R.string.general)) {
                 SettingsPreferenceItem(
-                    headlineText = stringResource(R.string.custom_title),
-                    supportingText = if (customTitle.isEmpty()) "SuikaPlayer" else customTitle,
-                    icon = Icons.Default.Edit,
-                    position = SectionPosition.FIRST,
-                    onClick = { showCustomTitleDialog = true }
-                )
-
-                SettingsPreferenceItem(
                     headlineText = stringResource(R.string.section_customization),
                     supportingText = stringResource(R.string.section_customization_desc),
                     icon = Icons.Default.ViewAgenda,
-                    position = SectionPosition.MIDDLE,
+                    position = SectionPosition.FIRST,
                     trailingContent = {
                         BouncySwitch(
                             checked = isSectionCustomizationEnabled,
